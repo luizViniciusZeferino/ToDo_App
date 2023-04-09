@@ -1,0 +1,64 @@
+body {
+    font: normal 15pt Arial;
+    background: #036635;
+}
+
+header {
+    color: black; /*cor do titulo */
+    text-align: center; /* deixando o titulo no meio da tela*/ 
+}
+
+section {
+    height: 300px; /* altura do espaço branco */ 
+    box-shadow: 5px 5px 10px rgba(54, 49, 49, 0.637); /* deixa a caixa branca com sombra */ ;
+    background: white; /* quadrado da div */ 
+    border-radius: 10px; /* para deixar a borda da div aredondada */ 
+    padding: 15px; /* espaço ao redor */                        
+    width: 380px; /* largura do espaço branco */
+    margin-top: 70px; /* margem de cima */ 
+    margin-left: 485px; /* margem da esquerda */ 
+} 
+
+input {
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(54, 49, 49, 0.637);
+}
+
+#logo {
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 95px;
+}
+
+h1 { 
+    margin-left: 30px;
+    font-size: 20pt;
+}
+
+span { 
+    font-size: 10pt;
+}
+
+.botao {
+    height: 35px;
+    width: 210px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(54, 49, 49, 0.637);
+} 
+
+.esqsen {
+    font-size: 10pt ;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#txtlog { 
+    margin-bottom: 5px;
+}
