@@ -9,13 +9,13 @@ header {
 }
 
 section {
-    height: 300%; /* altura do espaço branco */ 
+    height: 600%; /* altura do espaço branco */ 
     box-shadow: 5px 5px 10px rgba(54, 49, 49, 0.637); /* deixa a caixa branca com sombra */ ;
     background: white; /* quadrado da div */ 
     border-radius: 10px; /* para deixar a borda da div aredondada */ 
     padding: 15px; /* espaço ao redor */                        
     width: 380px; /* largura do espaço branco */
-    margin-top: 70px; /* margem de cima */ 
+    margin-top: 15%; /* margem de cima */ 
     margin-left: 36%; /* margem da esquerda */ 
 } 
 
@@ -27,8 +27,8 @@ input {
 }
 
 #logo {
-    margin-left: 37%;
-    margin-top: 50px;
+    margin-left: 36%;
+    margin-top: 6%;
 }
 
 .container {
@@ -38,8 +38,8 @@ input {
 }
 
 h1 { 
-    margin-left: 30px;
-    font-size: 20pt;
+    margin-left: 18%;
+    font-size: 15pt;
 }
 
 span { 
@@ -61,4 +61,8 @@ span {
 
 #txtlog { 
     margin-bottom: 5px;
+}
+
+.texto{
+    margin-left: 55%;
 }
